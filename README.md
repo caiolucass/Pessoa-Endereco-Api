@@ -32,7 +32,7 @@
 
 > GET: http://localhost:8080/pessoas/{id} -> Retorna uma pessoa. Necessario informar o {id} da pessoa!
 
-> GET: http://localhost:8080/pessoas/{id} -> Atualiza uma pessoa. Necessario informar o {id} da pessoa!
+> PUT: http://localhost:8080/pessoas/{id} -> Atualiza uma pessoa. Necessario informar o {id} da pessoa!
 
 > GET: http://localhost:8080/pessoas/listarEnderecos -> Retorna uma lista de enderecos de cada pessoa. 
 
