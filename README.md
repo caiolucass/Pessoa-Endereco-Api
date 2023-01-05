@@ -10,6 +10,7 @@
     • Poder informar qual endereço é o principal da pessoa  
 
 ### Uma Pessoa deve ter os seguintes campos:  
+
     • Pessoa:
       ◦ Nome
       ◦ Data de nascimento
@@ -23,6 +24,18 @@
 ### Requisitos  
     • Todas as respostas da API devem ser JSON  
     • Banco de dados H2
+    
+### Qualidade de código
+
+    1. Durante a implementação de uma nova funcionalidade de software solicitada, 
+    quais critérios você avalia e implementa para garantia de qualidade de software?
+
+    Resposta: Primeiro eu avalio o nível de complexidade da funcionalidade e 
+    qual estrutura de dados a mesma poderá ser implementada.
+
+    2. Em qual etapa da implementação você considera a qualidade de software?
+
+    Resposta: Na etapa de desenvolvimento e teste dos códigos.
 
 ### Instruções para o uso da API
 
@@ -41,14 +54,3 @@
 ### Observação
 
 Todas as requisicoes podem ser testadas via Postman (https://www.postman.com/)
-
-### Qualidade de código
-
-    1. Durante a implementação de uma nova funcionalidade de software solicitada, 
-    quais critérios você avalia e implementa para garantia de qualidade de software?
-
-    ## Resposta: Primeiro eu avalio o nível de complexidade da funcionalidade e qual estrutura de dados a mesma poderá ser implementada.
-
-    2. Em qual etapa da implementação você considera a qualidade de software?
-
-    ## Resposta: Na etapa de desenvolvimento e teste dos códigos.
