@@ -1,6 +1,6 @@
 # Pessoa-Endereco-Api
 
-### Usando Spring boot, crie uma API simples para gerenciar Pessoas. Esta API deve permitir:  
+### Esta API deve permitir:  
     • Criar uma pessoa
     • Editar uma pessoa
     • Consultar uma pessoa
