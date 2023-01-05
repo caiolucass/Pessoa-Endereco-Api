@@ -10,9 +10,9 @@
     • Poder informar qual endereço é o principal da pessoa  
 
 ### Uma Pessoa deve ter os seguintes campos:  
-    • Pessoa 
-    • Nome
-    • Data de nascimento
+    • Pessoa:
+      ◦ Nome
+      ◦ Data de nascimento
     
     • Endereço:
         ◦ Logradouro
