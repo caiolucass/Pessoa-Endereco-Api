@@ -1,6 +1,6 @@
 # Pessoa-Endereco-Api
 
-### Esta API deve permitir:  
+### API simples para gerenciar Pessoas. Esta API deve permitir:  
     • Criar uma pessoa
     • Editar uma pessoa
     • Consultar uma pessoa
