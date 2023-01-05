@@ -36,7 +36,6 @@ public class PessoaControllerTest {
     public void cadastrarPessoa() throws Exception {
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Caio");
-        pessoa.setCpf("14484348667");
         pessoa.setDataDeNascimento(LocalDate.of(2000, 10, 20));
         pessoa.setEnderecos(new ArrayList<>());
 

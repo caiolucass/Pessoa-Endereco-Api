@@ -51,7 +51,6 @@ public class PessoaServiceImpl implements PessoaService {
         return pessoaRepository.findById(id)
                 .map(pessoa -> {
                     pessoa.setNome(pessoa.getNome());
-                    pessoa.setCpf(pessoa.getCpf());
                     pessoa.setDataDeNascimento(pessoa.getDataDeNascimento());
                     pessoa.setEnderecos(pessoa.getEnderecos());
                     return pessoaRepository.save(pessoa);

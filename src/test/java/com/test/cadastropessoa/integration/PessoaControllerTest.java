@@ -41,7 +41,6 @@ public class PessoaControllerTest {
         Pessoa pessoa = new Pessoa();
         pessoa.setId(1L);
         pessoa.setNome("Caio Lucas");
-        pessoa.setCpf("14484348667");
         pessoa.setDataDeNascimento(LocalDate.of(2000, 10, 20));
         pessoa.setEnderecos(new ArrayList<>());
         ResponseEntity<Pessoa> responseEntity = restTemplate

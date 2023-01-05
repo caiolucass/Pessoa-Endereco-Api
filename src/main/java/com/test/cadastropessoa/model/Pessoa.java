@@ -5,7 +5,6 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import org.hibernate.Hibernate;
-import org.hibernate.validator.constraints.br.CPF;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
@@ -29,10 +28,6 @@ public class Pessoa {
     @Column(length = 10, nullable = false)
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dataDeNascimento;
-
-    @NotNull(message = "Favor preencher um CPF válido.")
-    @CPF
-    private String cpf;
 
     //quando carregar o usuario, trazer toda sua lista de enderecos
     @OneToMany(cascade = CascadeType.ALL)
