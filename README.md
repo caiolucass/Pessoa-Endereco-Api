@@ -30,8 +30,8 @@
     1. Durante a implementação de uma nova funcionalidade de software solicitada, 
     quais critérios você avalia e implementa para garantia de qualidade de software?
 
-    Resposta: Primeiro eu avalio o nível de complexidade da funcionalidade e 
-    qual estrutura de dados a mesma poderá ser implementada.
+    Resposta: Primeiro eu avalio o nível de complexidade da funcionalidade e qual estrutura de dados 
+    a mesma poderá implementar.
 
     2. Em qual etapa da implementação você considera a qualidade de software?
 
